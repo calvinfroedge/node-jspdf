@@ -10,7 +10,7 @@ plugins.map(function(plugin){
 //Modify the save function to save to disk
 var fs = require('fs');
 jsPDF.API.save = function(filename, callback){
-    fs.writeFile(filename, doc.output, callback);
+    fs.writeFile(filename, this.output(), callback);
 }
 
 module.exports = jsPDF;
