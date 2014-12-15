@@ -1,6 +1,6 @@
 {
   "name": "node-jspdf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use jsPDF in your node apps.",
   "main": "index.js",
   "scripts": {
