@@ -1,5 +1,11 @@
 This package allows you to use jsPDF on the server. Any methods that require DOM stuff will fail, but you can create and modify PDF files and save them to disk as shown in the documentation.
 
+Dependencies:
+```
+wget
+unzip
+```
+
 To use:
 
 ```
