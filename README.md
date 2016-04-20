@@ -15,6 +15,8 @@ npm install
 And then...
 
 ```
+var jsPDF = require('node-jspdf');
+
 var doc = jsPDF();
 doc.text(20, 20, 'Hello, world.');
 doc.save('Test.pdf', function(err){console.log('saved!');});
